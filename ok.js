@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const http = require('http');
 
 const server = http.createServer((req, res) => {
