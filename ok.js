@@ -17,7 +17,7 @@ const portArg = process.argv[2];
 const port = portArg ? parseInt(portArg) : 3000;
 
 server.listen(port, 'localhost', () => {
-  console.log(`Server running at http://localhost:${port}`);
+  console.log(`Server running at http://localhost:${port} ${!portArg ? '(specify port by passing it as the first argument)' : ''}`);
 });
 
 
