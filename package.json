@@ -6,6 +6,6 @@
   "scripts": {
     "start": "node ok.js"
   },
-  "author": "augustalexandersson@gmail.com",
+  "author": "August Alexandersson",
   "license": "ISC"
 }
